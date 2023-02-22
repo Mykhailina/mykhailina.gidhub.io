@@ -24,18 +24,19 @@ img {
     float: left;
     font-family:cursive;
     font-color: #99CCF8;
+    font-size: 16px;
   }
 
   a.more-link {
     background-color: #99CCF8;
   }
 
-  a {
+  a.white-circle {
     display: block;
-    padding: 8px;
+    padding: 30px;
     background-color: #fff;
     border-radius: 50%;
-    border-color: #fff;
+    
 
   }
 
@@ -86,23 +87,8 @@ border-color: #fff;
 border-width: 5px;
   border-style: solid;
 }
-.four-column {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  padding: 40px;
-  background-color: #99CCF8;
 
-}
-.four-column div {
-  background-color: #99CCF8;
-  border-color: #fff;
-  border-width: 5px;
-    border-style: solid;
-    border-radius: 30px;
-  margin-right: 10px;
-  mardin-right: 10px;
 
-}
 .small-image {
   width: 40px;
   left:auto;
