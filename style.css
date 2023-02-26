@@ -9,6 +9,8 @@ h2{
   font-family: cursive;
   color: #367BBA;
 }
+p {font-family: cursive;
+color: #fff}
 
 ul {
   list-style-type:none;
@@ -26,7 +28,6 @@ a.more-link {
   background-color: #99CCF8;
 }
 
-}
 a.white-circle {
   display: block;
   padding: 30px;
@@ -36,6 +37,7 @@ a.white-circle {
 
 }
 
+
 li a {
   display: block;
   color: #367BBA;
@@ -43,10 +45,20 @@ li a {
   padding: 40px 40px;
   text-decoration: none;
 }
+#menu-outer {
+	height: 84px;
+	background-color: inherit;
+}
 
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;}
 
-p {font-family: cursive;
-color: #fff}
+  ul#horizontal-list {
+  	min-width: 696px;
+  	list-style:circle;
+  	padding-top: 20px;
+  	}
 
 body {
 
@@ -74,17 +86,3 @@ border-width: 5px;
   width: 40px;
   left:auto;
 }
-#menu-outer {
-	height: 84px;
-	background-color: inherit;
-}
-
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
-ul#horizontal-list {
-	min-width: 696px;
-	list-style:circle;
-	padding-top: 20px;
-	}
